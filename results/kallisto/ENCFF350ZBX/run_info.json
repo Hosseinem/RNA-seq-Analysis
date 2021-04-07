@@ -1,0 +1,13 @@
+{
+	"n_targets": 30839,
+	"n_bootstraps": 50,
+	"n_processed": 1004450,
+	"n_pseudoaligned": 822940,
+	"n_unique": 253665,
+	"p_pseudoaligned": 81.9,
+	"p_unique": 25.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Sun Jul 12 18:38:11 2020",
+	"call": "kallisto quant -i drosophila_index/trnscrptm.idx -o ../results/kallisto/ENCFF350ZBX --bootstrap-sample=50 raw_data/ENCFF350ZBX.fastq.gz raw_data/ENCFF108KBN.fastq.gz"
+}
